@@ -1,0 +1,134 @@
+/* General Reset + Box-sizing */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f0fdfd; /* light aqua background */
+  color: #333;
+}
+
+/* Navigation Bar */
+.site-header {
+  background: #0077b6; /* blue */
+  padding: 1rem;
+  border-bottom: 4px solid #009688; /* green border */
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand {
+  color: white;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+.nav-links a:hover {
+  background: #009688;
+}
+
+/* Hero Section */
+.hero {
+  background: #caf0f8;
+  text-align: center;
+  padding: 3rem 1rem;
+  border-bottom: 3px solid #0077b6;
+}
+
+.hero h2 {
+  margin-bottom: 1rem;
+  color: #0077b6;
+}
+
+.hero p {
+  margin-bottom: 1.5rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background: #009688;
+  color: white;
+  border: 2px solid #0077b6;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #0077b6;
+}
+
+/* Content Sections */
+.content-section {
+  padding: 2rem 1rem;
+  margin: 1rem auto;
+  max-width: 900px;
+  background: #e0fbfc;
+  border: 2px solid #009688;
+  border-radius: 10px;
+}
+
+.content-section h2 {
+  margin-bottom: 1rem;
+  color: #0077b6;
+}
+
+/* Cards */
+.card {
+  background: white;
+  padding: 1rem;
+  border: 2px solid #0077b6;
+  border-radius: 8px;
+  margin-top: 1rem;
+}
+
+/* Table */
+.risk-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.risk-table th, .risk-table td {
+  border: 2px solid #0077b6;
+  padding: 0.75rem;
+  text-align: left;
+}
+
+.risk-table th {
+  background: #009688;
+  color: white;
+}
+
+.risk-table tr:nth-child(even) {
+  background: #f0fdfd;
+}
+
+/* Footer */
+.site-footer {
+  background: #0077b6;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+  border-top: 4px solid #009688;
+}
